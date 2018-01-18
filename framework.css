@@ -58,7 +58,36 @@
   width: 100%;
 }
 
+nav {
+  background-color: lightgray;
+  display:inline-block;
+  width:100%;
+}
 
+
+ul.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+
+li.navbar-item {
+    float: left;
+}
+
+li a.navbar-link {
+    display: block;
+    padding: 8px;
+    background-color: red;
+    text-decoration: none;
+    color:white;
+    margin:5px 20px 5px 10px;
+}
+
+li a.navbar-link:hover {
+  background-color: pink;
+}
 
 .row:before {
   display: table;
